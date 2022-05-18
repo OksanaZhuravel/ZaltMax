@@ -1,0 +1,22 @@
+/svg/
+.svg
+.vscode/
+# /fonts/
+.DS_Store
+.idea
+.vscode
+*.ai
+*.log
+*.pdf
+*.psd
+*.sublime*
+node_modules/
+npm-debug.*
+Thumbs.db
+.app
+.app/
+/app/
+.src
+.src/
+/src/
+package-lock.json
