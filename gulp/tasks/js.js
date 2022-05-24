@@ -24,6 +24,7 @@ export const js = () => {
                 test: /\.(scss|css)$/,
                 use: [
                   'style-loader',
+
                   {
                     loader: 'string-replace-loader',
                     options: {
@@ -35,8 +36,8 @@ export const js = () => {
                   {
                     loader: 'css-loader',
                     options: {
-                      importLoaders: 1,
-                      sourceMap: true,
+                      importLoaders: 3,
+                      sourceMap: false,
                       modules: false,
                       url: {
                         filter: (url, resourcePath) => {
@@ -51,8 +52,10 @@ export const js = () => {
                   {
                     loader: 'sass-loader',
                     options: {
+                      sourceMap: false,
                       sassOptions: {
-                        outputStyle: 'expanded',
+                        // outputStyle: 'expanded',
+                        outputStyle: 'compressed',
                       },
                     },
                   },
