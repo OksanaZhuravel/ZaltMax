@@ -541,7 +541,9 @@ h6 {
 
 @supports not (font-size: clamp( 0.75rem , 0.6884615385rem  +  0.3076923077vw , 1rem )) {
   .select .form ~ .select__body .select__value {
-    font-size: calc(0.75rem + 0.25 * (100vw - 20rem) / 81.25);
+    font-size: calc(
+      0.75rem + 0.25 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -1235,7 +1237,9 @@ body::after {
 
 @supports not (margin-bottom: clamp( 1.875rem , 1.5673076923rem  +  1.5384615385vw , 3.125rem )) {
   .products-slider__header:not(:last-child) {
-    margin-bottom: calc(1.875rem + 1.25 * (100vw - 20rem) / 81.25);
+    margin-bottom: calc(
+      1.875rem + 1.25 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -1281,7 +1285,9 @@ body::after {
 
 @supports not (margin-bottom: clamp( 1.875rem , 1.5673076923rem  +  1.5384615385vw , 3.125rem )) {
   .products-slider__wrapper:not(:last-child) {
-    margin-bottom: calc(1.875rem + 1.25 * (100vw - 20rem) / 81.25);
+    margin-bottom: calc(
+      1.875rem + 1.25 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -1376,7 +1382,9 @@ body::after {
 
 @supports not (padding-top: clamp( 0.9375rem , 0.7836538462rem  +  0.7692307692vw , 1.5625rem )) {
   .product-card__image {
-    padding-top: calc(0.9375rem + 0.625 * (100vw - 20rem) / 81.25);
+    padding-top: calc(
+      0.9375rem + 0.625 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -1388,7 +1396,9 @@ body::after {
 
 @supports not (padding-bottom: clamp( 0.9375rem , 0.7836538462rem  +  0.7692307692vw , 1.5625rem )) {
   .product-card__image {
-    padding-bottom: calc(0.9375rem + 0.625 * (100vw - 20rem) / 81.25);
+    padding-bottom: calc(
+      0.9375rem + 0.625 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -1400,7 +1410,9 @@ body::after {
 
 @supports not (padding-left: clamp( 0.9375rem , 0.3990384615rem  +  2.6923076923vw , 3.125rem )) {
   .product-card__image {
-    padding-left: calc(0.9375rem + 2.1875 * (100vw - 20rem) / 81.25);
+    padding-left: calc(
+      0.9375rem + 2.1875 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -1412,7 +1424,9 @@ body::after {
 
 @supports not (padding-right: clamp( 0.9375rem , 0.3990384615rem  +  2.6923076923vw , 3.125rem )) {
   .product-card__image {
-    padding-right: calc(0.9375rem + 2.1875 * (100vw - 20rem) / 81.25);
+    padding-right: calc(
+      0.9375rem + 2.1875 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -1503,7 +1517,9 @@ body::after {
 
 @supports not (padding-top: clamp( 1.25rem , 0.7115384615rem  +  2.6923076923vw , 3.4375rem )) {
   .products-new__section {
-    padding-top: calc(1.25rem + 2.1875 * (100vw - 20rem) / 81.25);
+    padding-top: calc(
+      1.25rem + 2.1875 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -1515,7 +1531,9 @@ body::after {
 
 @supports not (padding-bottom: clamp( 1.25rem , 0.8653846154rem  +  1.9230769231vw , 2.8125rem )) {
   .products-new__section {
-    padding-bottom: calc(1.25rem + 1.5625 * (100vw - 20rem) / 81.25);
+    padding-bottom: calc(
+      1.25rem + 1.5625 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -1537,7 +1555,9 @@ body::after {
 
 @supports not (padding-right: clamp( 1.25rem , -3.6089341693rem  +  7.8369905956vw , 4.375rem )) {
   .products-new__body {
-    padding-right: calc(1.25rem + 3.125 * (100vw - 62rem) / 39.875);
+    padding-right: calc(
+      1.25rem + 3.125 * (100vw - 62rem) / 39.875
+    );
   }
 }
 
@@ -1566,7 +1586,9 @@ body::after {
 
 @supports not ( margin-bottom: clamp( 1.25rem , 0.6346153846rem  +  3.0769230769vw , 3.75rem )) {
   .products-new__text:not(:last-child) {
-    margin-bottom: calc(1.25rem + 2.5 * (100vw - 20rem) / 81.25);
+    margin-bottom: calc(
+      1.25rem + 2.5 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -1582,7 +1604,9 @@ body::after {
 
 @supports not ( margin-bottom: clamp( 1.25rem , 0.7884615385rem  +  2.3076923077vw , 3.125rem )) {
   .products-new__wrapper:not(:last-child) {
-    margin-bottom: calc(1.25rem + 1.875 * (100vw - 20rem) / 81.25);
+    margin-bottom: calc(
+      1.25rem + 1.875 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -1694,7 +1718,9 @@ body::after {
 
 @supports not (font-size: clamp( 0.75rem , 0.6884615385rem  +  0.3076923077vw , 1rem )) {
   .breadcrumbs {
-    font-size: calc(0.75rem + 0.25 * (100vw - 20rem) / 81.25);
+    font-size: calc(
+      0.75rem + 0.25 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -1726,7 +1752,9 @@ body::after {
 
 @supports not (margin-left: clamp( 0.0625rem , -0.1067307692rem  +  0.8461538462vw , 0.75rem )) {
   .breadcrumbs__link::after {
-    margin-left: calc(0.0625rem + 0.6875 * (100vw - 20rem) / 81.25);
+    margin-left: calc(
+      0.0625rem + 0.6875 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -1738,7 +1766,9 @@ body::after {
 
 @supports not (margin-right: clamp( 0.0625rem , -0.1067307692rem  +  0.8461538462vw , 0.75rem )) {
   .breadcrumbs__link::after {
-    margin-right: calc(0.0625rem + 0.6875 * (100vw - 20rem) / 81.25);
+    margin-right: calc(
+      0.0625rem + 0.6875 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -1783,7 +1813,9 @@ body::after {
 
 @supports not (gap: clamp( 0.9375rem , 0.7067307692rem  +  1.1538461538vw , 1.875rem )) {
   .pagging {
-    gap: calc(0.9375rem + 0.9375 * (100vw - 20rem) / 81.25);
+    gap: calc(
+      0.9375rem + 0.9375 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -1924,9 +1956,15 @@ body::after {
 
 @supports not ((-moz-column-gap: clamp( 1.25rem , 0.6346153846rem  +  3.0769230769vw , 3.75rem )) or (column-gap: clamp( 1.25rem , 0.6346153846rem  +  3.0769230769vw , 3.75rem ))) {
   .menu-top-header__list {
-    -webkit-column-gap: calc(1.25rem + 2.5 * (100vw - 20rem) / 81.25);
-       -moz-column-gap: calc(1.25rem + 2.5 * (100vw - 20rem) / 81.25);
-            column-gap: calc(1.25rem + 2.5 * (100vw - 20rem) / 81.25);
+    -webkit-column-gap: calc(
+      1.25rem + 2.5 * (100vw - 20rem) / 81.25
+    );
+       -moz-column-gap: calc(
+      1.25rem + 2.5 * (100vw - 20rem) / 81.25
+    );
+            column-gap: calc(
+      1.25rem + 2.5 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -1964,7 +2002,9 @@ body::after {
 
 @supports not (padding-left: clamp( 1.25rem , -27.8885135135rem  +  37.2972972973vw , 9.875rem )) {
   .body-header__search {
-    padding-left: calc(1.25rem + 8.625 * (100vw - 78.125rem) / 23.125);
+    padding-left: calc(
+      1.25rem + 8.625 * (100vw - 78.125rem) / 23.125
+    );
   }
 }
 
@@ -2062,9 +2102,15 @@ body::after {
 
 @supports not ((-moz-column-gap: clamp( 1.25rem , 0.2419354839rem  +  1.6129032258vw , 1.875rem )) or (column-gap: clamp( 1.25rem , 0.2419354839rem  +  1.6129032258vw , 1.875rem ))) {
   .actions-header {
-    -webkit-column-gap: calc(1.25rem + 0.625 * (100vw - 62.5rem) / 38.75);
-       -moz-column-gap: calc(1.25rem + 0.625 * (100vw - 62.5rem) / 38.75);
-            column-gap: calc(1.25rem + 0.625 * (100vw - 62.5rem) / 38.75);
+    -webkit-column-gap: calc(
+      1.25rem + 0.625 * (100vw - 62.5rem) / 38.75
+    );
+       -moz-column-gap: calc(
+      1.25rem + 0.625 * (100vw - 62.5rem) / 38.75
+    );
+            column-gap: calc(
+      1.25rem + 0.625 * (100vw - 62.5rem) / 38.75
+    );
   }
 }
 
@@ -2092,7 +2138,9 @@ body::after {
 
 @supports not (margin-right: clamp( 0.0000000625rem , -9.943181358rem  +  11.3636359091vw , 1.5625rem )) {
   .actions-header__location {
-    margin-right: calc(0.0000000625rem + 1.5624999375 * (100vw - 87.5rem) / 13.75);
+    margin-right: calc(
+      0.0000000625rem + 1.5624999375 * (100vw - 87.5rem) / 13.75
+    );
   }
 }
 
@@ -2376,7 +2424,9 @@ body::after {
 
 @supports not (font-size: clamp( 1.25rem , 0.9523809524rem  +  1.4880952381vw , 1.875rem )) {
   .sub-menu-catalog__link-category {
-    font-size: calc(1.25rem + 0.625 * (100vw - 20rem) / 42);
+    font-size: calc(
+      1.25rem + 0.625 * (100vw - 20rem) / 42
+    );
   }
 }
 
@@ -2396,7 +2446,9 @@ body::after {
 
 @supports not (padding-top: clamp( 2.5rem , 2.1923076923rem  +  1.5384615385vw , 3.75rem )) {
   .text-footer {
-    padding-top: calc(2.5rem + 1.25 * (100vw - 20rem) / 81.25);
+    padding-top: calc(
+      2.5rem + 1.25 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -2408,7 +2460,9 @@ body::after {
 
 @supports not (padding-bottom: clamp( 2.5rem , 2.1923076923rem  +  1.5384615385vw , 3.75rem )) {
   .text-footer {
-    padding-bottom: calc(2.5rem + 1.25 * (100vw - 20rem) / 81.25);
+    padding-bottom: calc(
+      2.5rem + 1.25 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -2428,7 +2482,9 @@ body::after {
 
 @supports not (font-size: clamp( 1.5rem , 1.4076923077rem  +  0.4615384615vw , 1.875rem )) {
   .text-footer__title {
-    font-size: calc(1.5rem + 0.375 * (100vw - 20rem) / 81.25);
+    font-size: calc(
+      1.5rem + 0.375 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -2449,7 +2505,9 @@ body::after {
 
 @supports not (font-size: clamp( 1rem , 0.9692307692rem  +  0.1538461538vw , 1.125rem )) {
   .text-footer__text {
-    font-size: calc(1rem + 0.125 * (100vw - 20rem) / 81.25);
+    font-size: calc(
+      1rem + 0.125 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -2466,7 +2524,9 @@ body::after {
 
 @supports not (padding-top: clamp( 2.5rem , 1.5769230769rem  +  4.6153846154vw , 6.25rem )) {
   .body-footer {
-    padding-top: calc(2.5rem + 3.75 * (100vw - 20rem) / 81.25);
+    padding-top: calc(
+      2.5rem + 3.75 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -2478,7 +2538,9 @@ body::after {
 
 @supports not (padding-bottom: clamp( 2.5rem , 2.3461538462rem  +  0.7692307692vw , 3.125rem )) {
   .body-footer {
-    padding-bottom: calc(2.5rem + 0.625 * (100vw - 20rem) / 81.25);
+    padding-bottom: calc(
+      2.5rem + 0.625 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -2490,7 +2552,9 @@ body::after {
 
 @supports not (gap: clamp( 1.5625rem , 1.4086538462rem  +  0.7692307692vw , 2.1875rem )) {
   .body-footer {
-    gap: calc(1.5625rem + 0.625 * (100vw - 20rem) / 81.25);
+    gap: calc(
+      1.5625rem + 0.625 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -2511,7 +2575,9 @@ body::after {
 
 @supports not (row-gap: clamp( 1.25rem , 0.9423076923rem  +  1.5384615385vw , 2.5rem )) {
   .body-footer__row {
-    row-gap: calc(1.25rem + 1.25 * (100vw - 20rem) / 81.25);
+    row-gap: calc(
+      1.25rem + 1.25 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -2542,7 +2608,9 @@ body::after {
 
 @supports not (padding-top: clamp( 1.25rem , 1.0961538462rem  +  0.7692307692vw , 1.875rem )) {
   .spoller-item-footer__body {
-    padding-top: calc(1.25rem + 0.625 * (100vw - 20rem) / 81.25);
+    padding-top: calc(
+      1.25rem + 0.625 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -2554,7 +2622,9 @@ body::after {
 
 @supports not (padding-bottom: clamp( 1.25rem , 1.0961538462rem  +  0.7692307692vw , 1.875rem )) {
   .spoller-item-footer__body {
-    padding-bottom: calc(1.25rem + 0.625 * (100vw - 20rem) / 81.25);
+    padding-bottom: calc(
+      1.25rem + 0.625 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -2610,7 +2680,9 @@ body::after {
 
 @supports not (margin-bottom: clamp( 1.25rem , 1.0653846154rem  +  0.9230769231vw , 2rem )) {
   .menu-footer:not(:last-child) {
-    margin-bottom: calc(1.25rem + 0.75 * (100vw - 20rem) / 81.25);
+    margin-bottom: calc(
+      1.25rem + 0.75 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -2734,7 +2806,9 @@ body::after {
 
 @supports not (padding-top: clamp( 2.5rem , 2.5rem  +  0vw , 2.5rem )) {
   .main-block {
-    padding-top: calc(2.5rem + 0 * (100vw - 20rem) / 81.25);
+    padding-top: calc(
+      2.5rem + 0 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -2746,7 +2820,9 @@ body::after {
 
 @supports not (padding-bottom: clamp( 2.5rem , 2.1923076923rem  +  1.5384615385vw , 3.75rem )) {
   .main-block {
-    padding-bottom: calc(2.5rem + 1.25 * (100vw - 20rem) / 81.25);
+    padding-bottom: calc(
+      2.5rem + 1.25 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -2767,7 +2843,9 @@ body::after {
 
 @supports not (margin-bottom: clamp( 1.875rem , 1.675rem  +  1vw , 2.6875rem )) {
   .main-block__body:not(:last-child) {
-    margin-bottom: calc(1.875rem + 0.8125 * (100vw - 20rem) / 81.25);
+    margin-bottom: calc(
+      1.875rem + 0.8125 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -2887,7 +2965,9 @@ body::after {
 
 @supports not (margin-bottom: clamp( 1.875rem , 1.4134615385rem  +  2.3076923077vw , 3.75rem )) {
   .slide-main-block__content {
-    margin-bottom: calc(1.875rem + 1.875 * (100vw - 20rem) / 81.25);
+    margin-bottom: calc(
+      1.875rem + 1.875 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -2899,7 +2979,9 @@ body::after {
 
 @supports not (font-size: clamp( 1.4375rem , 1.0505952381rem  +  1.9345238095vw , 2.25rem )) {
   .slide-main-block__content {
-    font-size: calc(1.4375rem + 0.8125 * (100vw - 20rem) / 42);
+    font-size: calc(
+      1.4375rem + 0.8125 * (100vw - 20rem) / 42
+    );
   }
 }
 
@@ -2920,7 +3002,9 @@ body::after {
 
 @supports not (font-size: clamp( 1rem , 0.880952381rem  +  0.5952380952vw , 1.25rem )) {
   .slide-main-block__text {
-    font-size: calc(1rem + 0.25 * (100vw - 20rem) / 42);
+    font-size: calc(
+      1rem + 0.25 * (100vw - 20rem) / 42
+    );
   }
 }
 
@@ -3085,7 +3169,9 @@ body::after {
 
 @supports not (padding-top: clamp( 2.5rem , 1.5769230769rem  +  4.6153846154vw , 6.25rem )) {
   .catalog-cards {
-    padding-top: calc(2.5rem + 3.75 * (100vw - 20rem) / 81.25);
+    padding-top: calc(
+      2.5rem + 3.75 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3097,7 +3183,9 @@ body::after {
 
 @supports not (padding-bottom: clamp( 2.5rem , 2.0384615385rem  +  2.3076923077vw , 4.375rem )) {
   .catalog-cards {
-    padding-bottom: calc(2.5rem + 1.875 * (100vw - 20rem) / 81.25);
+    padding-bottom: calc(
+      2.5rem + 1.875 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3133,7 +3221,9 @@ body::after {
 
 @supports not (padding-bottom: clamp( 0.3125rem , -0.0721153846rem  +  1.9230769231vw , 1.875rem )) {
   .item-catalog-cards__body {
-    padding-bottom: calc(0.3125rem + 1.5625 * (100vw - 20rem) / 81.25);
+    padding-bottom: calc(
+      0.3125rem + 1.5625 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3215,7 +3305,9 @@ body::after {
 
 @supports not (padding-top: clamp( 2.5rem , 2.3461538462rem  +  0.7692307692vw , 3.125rem )) {
   .hits-products {
-    padding-top: calc(2.5rem + 0.625 * (100vw - 20rem) / 81.25);
+    padding-top: calc(
+      2.5rem + 0.625 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3227,7 +3319,9 @@ body::after {
 
 @supports not (padding-bottom: clamp( 2.5rem , 1.2692307692rem  +  6.1538461538vw , 7.5rem )) {
   .hits-products {
-    padding-bottom: calc(2.5rem + 5 * (100vw - 20rem) / 81.25);
+    padding-bottom: calc(
+      2.5rem + 5 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3239,7 +3333,9 @@ body::after {
 
 @supports not (padding-bottom: clamp( 2.5rem , 1.2692307692rem  +  6.1538461538vw , 7.5rem )) {
   .sale-products {
-    padding-bottom: calc(2.5rem + 5 * (100vw - 20rem) / 81.25);
+    padding-bottom: calc(
+      2.5rem + 5 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3251,7 +3347,9 @@ body::after {
 
 @supports not (margin-bottom: clamp( 2.5rem , 1.2692307692rem  +  6.1538461538vw , 7.5rem )) {
   .articles-module {
-    margin-bottom: calc(2.5rem + 5 * (100vw - 20rem) / 81.25);
+    margin-bottom: calc(
+      2.5rem + 5 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3339,7 +3437,9 @@ body::after {
 
 @supports not (padding: clamp( 0.9375rem , 0.7836538462rem  +  0.7692307692vw , 1.5625rem )) {
   .item-article__body {
-    padding: calc(0.9375rem + 0.625 * (100vw - 20rem) / 81.25);
+    padding: calc(
+      0.9375rem + 0.625 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3351,7 +3451,9 @@ body::after {
 
 @supports not (margin-bottom: clamp( 2.5rem , 1.2692307692rem  +  6.1538461538vw , 7.5rem )) {
   .products-block {
-    margin-bottom: calc(2.5rem + 5 * (100vw - 20rem) / 81.25);
+    margin-bottom: calc(
+      2.5rem + 5 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3387,7 +3489,9 @@ body::after {
 
 @supports not (padding-bottom: clamp( 0.3125rem , -0.0721153846rem  +  1.9230769231vw , 1.875rem )) {
   .product-block__body {
-    padding-bottom: calc(0.3125rem + 1.5625 * (100vw - 20rem) / 81.25);
+    padding-bottom: calc(
+      0.3125rem + 1.5625 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3452,7 +3556,9 @@ body::after {
 
 @supports not (padding-bottom: clamp( 2.5rem , 1.2692307692rem  +  6.1538461538vw , 7.5rem )) {
   .catalog {
-    padding-bottom: calc(2.5rem + 5 * (100vw - 20rem) / 81.25);
+    padding-bottom: calc(
+      2.5rem + 5 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3493,7 +3599,9 @@ body::after {
 
 @supports not (margin-bottom: clamp( 1.875rem , 1.4134615385rem  +  2.3076923077vw , 3.75rem )) {
   .catalog__products:not(:last-child) {
-    margin-bottom: calc(1.875rem + 1.875 * (100vw - 20rem) / 81.25);
+    margin-bottom: calc(
+      1.875rem + 1.875 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3515,7 +3623,9 @@ body::after {
 
 @supports not (font-size: clamp( 0.75rem , 0.6269230769rem  +  0.6153846154vw , 1.25rem )) {
   .catalog__more {
-    font-size: calc(0.75rem + 0.5 * (100vw - 20rem) / 81.25);
+    font-size: calc(
+      0.75rem + 0.5 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3675,7 +3785,9 @@ body::after {
 
 @supports not (margin-bottom: clamp( 2.5rem , 1.2692307692rem  +  6.1538461538vw , 7.5rem )) {
   .product__main {
-    margin-bottom: calc(2.5rem + 5 * (100vw - 20rem) / 81.25);
+    margin-bottom: calc(
+      2.5rem + 5 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3687,7 +3799,9 @@ body::after {
 
 @supports not (margin-bottom: clamp( 2.5rem , 1.2692307692rem  +  6.1538461538vw , 7.5rem )) {
   .product__info {
-    margin-bottom: calc(2.5rem + 5 * (100vw - 20rem) / 81.25);
+    margin-bottom: calc(
+      2.5rem + 5 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3736,7 +3850,9 @@ body::after {
 
 @supports not (padding: clamp( 0.9375rem , 0.7067307692rem  +  1.1538461538vw , 1.875rem )) {
   .body-product {
-    padding: calc(0.9375rem + 0.9375 * (100vw - 20rem) / 81.25);
+    padding: calc(
+      0.9375rem + 0.9375 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3857,7 +3973,9 @@ body::after {
 
 @supports not (font-size: clamp( 1rem , 0.9692307692rem  +  0.1538461538vw , 1.125rem )) {
   .actions-product__cart {
-    font-size: calc(1rem + 0.125 * (100vw - 20rem) / 81.25);
+    font-size: calc(
+      1rem + 0.125 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3879,7 +3997,9 @@ body::after {
 
 @supports not (font-size: clamp( 1rem , 0.9692307692rem  +  0.1538461538vw , 1.125rem )) {
   .actions-product__button {
-    font-size: calc(1rem + 0.125 * (100vw - 20rem) / 81.25);
+    font-size: calc(
+      1rem + 0.125 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -3959,7 +4079,9 @@ body::after {
 
 @supports not (gap: clamp( 1.875rem , 1.4134615385rem  +  2.3076923077vw , 3.75rem )) {
   .product-info__navigation {
-    gap: calc(1.875rem + 1.875 * (100vw - 20rem) / 81.25);
+    gap: calc(
+      1.875rem + 1.875 * (100vw - 20rem) / 81.25
+    );
   }
 }
 
@@ -4212,7 +4334,9 @@ body::after {
 
 @supports not (font-size: clamp( 1.25rem , 0.9523809524rem  +  1.4880952381vw , 1.875rem )) {
     .menu-top-header__link {
-      font-size: calc(1.25rem + 0.625 * (100vw - 20rem) / 42);
+      font-size: calc(
+      1.25rem + 0.625 * (100vw - 20rem) / 42
+    );
     }
 }
 
@@ -4363,7 +4487,9 @@ body::after {
 
 @supports not (font-size: clamp( 1.25rem , 0.9523809524rem  +  1.4880952381vw , 1.875rem )) {
     .menu-catalog__link {
-      font-size: calc(1.25rem + 0.625 * (100vw - 20rem) / 42);
+      font-size: calc(
+      1.25rem + 0.625 * (100vw - 20rem) / 42
+    );
     }
 }
 
@@ -4478,8 +4604,8 @@ body::after {
   }
 
   .advantages-main {
-    -ms-grid-columns: (1fr)[2];
-    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     row-gap: 1.875rem;
     text-align: center;
     justify-items: center;
